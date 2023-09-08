@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BloomMart </title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="header">
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact Us</a></li>
+
+            </ul>
+            <img src="images/cart.jpg" width="40px" height="40px">
+            <img src="images/cart.png" class="Menu-icon" onclick="menutoggle()">
+        </nav>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img class="logo" src="images/logo.png" width="125px">|
+                    <p class="myheading">BlooMart: Where Flowers Unfold</p>
+                    <!-- <p class="mysubheading">Blossom Your World with Fragrant Delights
+                      </p> -->
+                </div>
+
+                <!-- <nav >
+               <ul id="MenuItems">
+                  <li><a href="">Home</a></li>
+                  
+                  <li><a href="">About</a></li>
+                  <li><a href="">Contact Us</a></li>
+                 
+               </ul>
+             </nav> -->
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1><br>Begin everything with Flowers!</h1>
+                <!-- <p>Love delivered at your doorstep
+                </p> -->
+
+            </div>
+            <div class="col-2">
+                <img align="right" src="images/main.jpg" width="750" height="700" class="mainimage">
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="small-container">
+        <h2 class="title">Our Best Sellers</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/bs1.jpg">
+                <h4>Pink Delicate Rose Bunch </h4>
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>Rs- 1000.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/bs2.jpg">
+                <h4>Pastel Carnations Flowers</h4>
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+
+                </div>
+                <p>Rs- 800.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/bs3.jpg">
+                <h4>Love Orchids </h4>
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+
+                </div>
+                <p>Rs- 900.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/bs4.jpg">
+                <h4> Golden Sunrise</h4>
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+
+                </div>
+                <p>Rs- 1234.00</p>
+            </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/lp1.jpg">
+                <h4>Pretty Angel </h4>
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+
+
+                </div>
+                <p>Rs- 1045.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/lp2.jpg">
+                <h4>RoseMarry </h4>
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+
+                </div>
+                <p>Rs- 2344.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/lp3.jpg">
+                <h4>Bottom Blossom </h4>
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+
+
+                </div>
+                <p>Rs- 156.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/lp4.jpg">
+                <h4>Delicate Delights</h4>
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+
+                </div>
+                <p>Rs- 345.00</p>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/lp5.jpg">
+                    <h4>Fragrant Freesias</h4>
+                    <div class="rating">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+
+                        <i class='bx bxs-star'></i>
+
+                    </div>
+                    <p>Rs- 678.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/lp6.jpg">
+                    <h4>Luscious Lilies </h4>
+                    <div class="rating">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+
+                    </div>
+                    <p>Rs- 287.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/lp7.png">
+                    <h4>Serene Splendor </h4>
+                    <div class="rating">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+
+                    </div>
+                    <p>Rs- 972.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/lp8.jpg">
+                    <h4>Enchanting Elegance</h4>
+                    <div class="rating">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <p>Rs- 1200.00</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col2">
+                        <img src="images/highlight.jpg" class="offer-img" width=280 height=250>
+                    </div>
+                    <div class="col2">
+                        <p>**Exclusively Available on Friday**</p>
+                        <h1>Personalized Blossoms </h1>
+                        <small>Our Friday Special Bouquet is not only a delightful arrangement of fresh and vibrant
+                            flowers but also comes with a personalized note, where you can request us to write anything
+                            you desire.
+                        </small>
+                        <br>
+                        <a href="" class="btn">Book Now &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="testimonial">
+        <div class="small-container">
+            <h2 class="title">See What Stars Say!</h2>
+            <div class="row">
+
+                <div class="col-3">
+
+
+                    <i class='bx bx-message-rounded-dots' id="aa"></i>
+                    <p>Flower bouquets are the epitome of nature's beauty and can bring joy to any occasion. From
+                        vibrant roses to delicate lilies, flower bouquets offer a visual feast of colors and fragrances.
+                        These carefully arranged clusters of blooms not only convey emotions but also serve as a perfect
+                        gift for birthdays, anniversaries, or just to brighten someone's day. The artistry and skill
+                        that go into crafting a stunning flower bouquet is truly remarkable, as each petal and stem is
+                        carefully selected to create a harmonious arrangement that captivates the senses.
+                    </p>
+                    <div class="rating">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+
+                    <img src="images/s2.jpg">
+                    <h3>Darshan Raval</h3>
+                </div>
+                <div class="col-3">
+                    <i class='bx bx-message-rounded-dots' id="aa"></i>
+                    <p>I received a flower bouquet from Bloom Mart for my birthday, and it was absolutely breathtaking!
+                        The combination of roses, lilies, and daisies created a stunning blend of colors. The bouquet
+                        was expertly arranged, and the fresh fragrance filled the room. It instantly lifted my spirits
+                        and made my day even more special. The flowers lasted for a long time, and I was amazed at how
+                        well they were preserved. Bloom Mart truly knows how to create unforgettable bouquets.
+                    </p>
+                    <div class="rating">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <img src="images/s1.jpg">
+                    <h3>Selena Gomez</h3>
+                </div>
+                <div class="col-3">
+                    <i class='bx bx-message-rounded-dots' id="aa"></i>
+                    <p>Flower bouquets are not just a visual delight; they also carry deep symbolic meanings. Each
+                        flower has its own significance, allowing you to express your emotions in a unique way. For
+                        instance, red roses symbolize love and passion, while sunflowers represent happiness and
+                        positivity. Flower bouquets can convey messages of gratitude, sympathy, congratulations, or
+                        simply convey heartfelt sentiments. Whether you're celebrating a milestone or expressing
+                        condolences, a thoughtfully chosen flower bouquet can communicate your feelings with grace and
+                        elegance..
+                    </p>
+                    <div class="rating">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+
+                    <img src="images/s3.jpg">
+                    <h3>Deepika Padukone</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------brands-->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/sp1.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/sp2.jpg">
+                </div>
+                <div class="col-5">
+                    <img src="images/sp3.jpg">
+                </div>
+                <div class="col-5">
+                    <img src="images/sp4.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/sp5.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----footer---->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>DownLoad Our App</h3>
+                    <p>DownLoad Our App for Android and ios mobile phone</p>
+                    <div class="applogo">
+                        <img src="images/and.png">
+                        <img src="images/ios.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo.png">
+                    <p> To create memorable experiences through the beauty and enchantment of flowers. We are committed
+                        to providing exceptional floral arrangements and services that capture the essence of every
+                        occasion. Our goal is to be a trusted source for exquisite blooms, delivering joy, love, and
+                        inspiration with every bouquet. </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3> You may also want to know</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Modes</li>
+                        <li>Policies</li>
+                        <li>Terms </li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagran</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">Copyright 2023-BlooMart</p>
+        </div>
+    </div>
+    <!---js for toggle menu-->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle() {
+            if (MenuItems.style.maxHeight = "0px") {
+                MenuItems.style.maxHeight = "200px"
+            }
+            else {
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+</body>
+
+</html>
