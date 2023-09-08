@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samipta's Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,400;10..48,600&family=Poppins:wght@200&family=Sofia+Sans:wght@300&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(57, 1, 39);
+            color: beige;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: rgb(63, 2, 2);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 33px;
+            font-size: 1.5rem;
+        }
+
+        nav ul li a {
+            color: antiquewhite;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            color: chocolate;
+            font-size: 1.7rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: burlywood;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 4rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 33px 0;
+            align-items: center;
+        }
+
+        .firstsection div {
+            width: 30%;
+        }
+
+        .leftsection {
+            /* background-color: cadetblue; */
+            font-size: 2.5rem;
+        }
+
+        .leftsection .button {
+            padding: 22px 0;
+        }
+
+        .leftsection .btn {
+            background-color: #9e7abf;
+            color: black;
+            border: 2px solid black;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 17px;
+        }
+
+        .rightsection img {
+            width: 100%;
+            margin: 23px 0;
+        }
+
+        .Beige {
+            color: indianred;
+        }
+
+        #element {
+            color: indianred;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.8rem;
+        }
+
+        .text-gray {
+            color: rgb(234, 113, 113);
+        }
+
+        .secondsection .box {
+            background-color: rgb(234, 113, 113);
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            width: 1px;
+            height: 93px;
+            background-color: rgb(234, 113, 113);
+            margin: 0 140px;
+
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -40px;
+            left: 12px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 73px;
+            width: 150px;
+            font-size: 17px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 93px;
+            color: rgb(207, 105, 105);
+            width: 127px;
+            font-size: 13px;
+        }
+
+        footer {
+            background-color: #200821;
+            height: 120px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 120px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 123px;
+        }
+
+        footer .footer-rights {
+            height: 35px;
+            text-align: center;
+            padding: 12px;
+        }
+
+        footer .footer-first {
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Samipta's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <Li><a href="#"> Home </a></Li>
+                    <li><a href="#"> About </a></li>
+                    <li><a href="#"> Services </a></li>
+                    <li><a href="#"> Projects </a></li>
+                    <li><a href="#"> Contact </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hello, My name is <span class="Beige">Samipta Chawla</span>. I am a
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download Resume</button>
+                    <a href="https://github.com/samiptachawla"> <button class="btn"> Visit Github</button></a>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="png1.png">
+            </div>
+        </section>
+
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">What i have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="png3.jpeg">
+                    <div class="vertical-title">
+                        HTML Developer (2015-2017)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium fuga aperiam quam laborum
+                        non quod ea vel neque necessitatibus, ut pariatur fugiat eveniet!
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="png4.jpeg">
+                    <div class="vertical-title">
+                        Front end Developer (Instagram) (2017-2019)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium fuga aperiam quam laborum
+                        non quod ea vel neque necessitatibus, ut pariatur fugiat eveniet!
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="png5.jpeg">
+                    <div class="vertical-title">
+                        Back end Developer (Facebook) (2019-2021)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium fuga aperiam quam laborum
+                        non quod ea vel neque necessitatibus, ut pariatur fugiat eveniet!
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="png6.jpeg">
+                    <div class="vertical-title">
+                        Full Stack Developer (Twitter) (2021-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium fuga aperiam quam laborum
+                        non quod ea vel neque necessitatibus, ut pariatur fugiat eveniet!
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                Samipta's Portfolio
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            www.SamiptasPortfolio.com | All Rights Reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Designer'],
+            typeSpeed: 60,
+        });
+    </script>
+</body>
+
+</html>
